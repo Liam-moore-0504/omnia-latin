@@ -1,0 +1,138 @@
+<title>Omnia Latin</title>
+<h1 style="text-align: center;">Demonstratives</h1>
+
+<meta charset="UTF-8">
+    <!-- Toggle Button -->
+
+<button onclick="toggleSidebar()" style="background-color: #333; color: white; padding: 10px 15px; border: none; cursor: pointer; position: fixed; top: 10px; left: 10px;">☰ Menu</button>
+
+
+    <!-- Sidebar -->
+    <div id="sidebar" style="display: none; position: fixed; top: 0; left: 0; width: 200px; height: 100%; background: #333; color: white; padding: 20px;">
+        <button onclick="location.href='home.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Home</button>
+        <button onclick="location.href='indicativeverbs.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Indicative Verbs</button>
+        <button onclick="location.href='nouns.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Nouns</button>
+        <button onclick="location.href='adjectives.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Adjectives</button>
+        <button onclick="location.href='pronouns.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Pronouns</button>
+        <button onclick="location.href='misc.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Misc.</button>
+        <button onclick="location.href='latintexts.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px">Latin Texts</button>
+        <button onclick="location.href='art.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px">Art</button>
+        <button style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px; position: absolute; bottom: 40px; left: 20px;" onclick="toggleSidebar();">Close</button>
+    </div>
+
+<!-- Script -->
+<script>
+    function toggleSidebar() {
+        var sidebar = document.getElementById('sidebar');
+        sidebar.style.display = (sidebar.style.display === 'none') ? 'block' : 'none';
+    }
+    </script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Latin Demonstrative Pronouns</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px 0;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    caption {
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>SINGULAR</h2>
+<table>
+  <caption>Hic (this/these)</caption>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>Masculine</th>
+      <th>Feminine</th>
+      <th>Neuter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nominative</td><td>hic</td><td>haec</td><td>hoc</td></tr>
+    <tr><td>Genitive</td><td colspan="3">huius</td></tr>
+    <tr><td>Dative</td><td colspan="3">huic</td></tr>
+    <tr><td>Accusative</td><td>hunc</td><td>hanc</td><td>hoc</td></tr>
+    <tr><td>Ablative</td><td>hōc</td><td>hāc</td><td>hōc</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <caption>Ille (that/those)</caption>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>Masculine</th>
+      <th>Feminine</th>
+      <th>Neuter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nominative</td><td>ille</td><td>illa</td><td>illud</td></tr>
+    <tr><td>Genitive</td><td colspan="3">illius</td></tr>
+    <tr><td>Dative</td><td colspan="3">illī</td></tr>
+    <tr><td>Accusative</td><td>illum</td><td>illam</td><td>illud</td></tr>
+    <tr><td>Ablative</td><td>illō</td><td>illā</td><td>illō</td></tr>
+  </tbody>
+</table>
+
+<h2>PLURAL</h2>
+<table>
+  <caption>Hic (this/these)</caption>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>Masculine</th>
+      <th>Feminine</th>
+      <th>Neuter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nominative</td><td>hī</td><td>hae</td><td>haec</td></tr>
+    <tr><td>Genitive</td><td>hōrum</td><td>hārum</td><td>hōrum</td></tr>
+    <tr><td>Dative</td><td colspan="3">hīs</td></tr>
+    <tr><td>Accusative</td><td>hōs</td><td>hās</td><td>haec</td></tr>
+    <tr><td>Ablative</td><td colspan="3">hīs</td></tr>
+  </tbody>
+</table>
+
+<table>
+  <caption>Ille (that/those)</caption>
+  <thead>
+    <tr>
+      <th>Case</th>
+      <th>Masculine</th>
+      <th>Feminine</th>
+      <th>Neuter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nominative</td><td>illī</td><td>illae</td><td>illa</td></tr>
+    <tr><td>Genitive</td><td>illōrum</td><td>illārum</td><td>illōrum</td></tr>
+    <tr><td>Dative</td><td colspan="3">illīs</td></tr>
+    <tr><td>Accusative</td><td>illōs</td><td>illās</td><td>illa</td></tr>
+    <tr><td>Ablative</td><td colspan="3">illīs</td></tr>
+  </tbody>
+</table>
+
+</body>
+</html>

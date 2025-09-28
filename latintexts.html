@@ -1,0 +1,71 @@
+<title>Omnia Latin</title>
+<meta charset="UTF-8">
+    <!-- Toggle Button -->
+
+<button onclick="toggleSidebar()" style="background-color: #333; color: white; padding: 10px 15px; border: none; cursor: pointer; position: fixed; top: 10px; left: 10px;">☰ Menu</button>
+
+
+    <!-- Sidebar -->
+    <div id="sidebar" style="display: none; position: fixed; top: 0; left: 0; width: 200px; height: 100%; background: #333; color: white; padding: 20px;">
+        <button onclick="location.href='home.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Home</button>
+        <button onclick="location.href='indicativeverbs.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Indicative Verbs</button>
+        <button onclick="location.href='nouns.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Nouns</button>
+        <button onclick="location.href='adjectives.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Adjectives</button>
+        <button onclick="location.href='pronouns.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Pronouns</button>
+        <button onclick="location.href='misc.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Misc.</button>
+        <button onclick="location.href='latintexts.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px">Latin Texts</button>
+        <button onclick="location.href='art.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px">Art</button>
+        <button style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px; position: absolute; bottom: 40px; left: 20px;" onclick="toggleSidebar();">Close</button>
+    </div>
+
+<!-- Script -->
+<script>
+    function toggleSidebar() {
+        var sidebar = document.getElementById('sidebar');
+        sidebar.style.display = (sidebar.style.display === 'none') ? 'block' : 'none';
+    }
+    </script>
+
+<!-- Main content -->
+<div style="background-color: #333; color: white; text-align: center; padding: 20px; margin-bottom: 20px;">
+    <h1 style="margin: 0;">Latin Texts</h1>
+</div>
+
+<div style="text-align: center;">
+    <p style="text-align: center;"><sup>Click on the images to access the texts. The texts are in Latin and are available for free use.</sup></p>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 100px;">
+    <form action="https://dcc.dickinson.edu/bede-historia-ecclesiastica/book-1/prologus" method="post">
+        <input type="image" src="https://dcc.dickinson.edu/sites/default/files/styles/frontpage_images/public/2020-07/saint-bede-the-venerable%20%281%29.png?itok=__bnQfyl" alt="Submit" width="300" height="300">
+        <p><em>Bede</em></p>
+    </form>
+
+    <form action="https://dcc.dickinson.edu/caesar/book-1/chapter-1-1" method="post">
+        <input type="image" src="https://dcc.dickinson.edu/sites/default/files/styles/frontpage_images/public/2020-07/caesarhome.jpg?itok=Iquozkhq" alt="Submit" width="300" height="300">
+        <p><em>Caesar</em></p>
+    </form>
+
+    <form action="https://dcc.dickinson.edu/cicero-verres/53" method="post">
+        <input type="image" src="https://dcc.dickinson.edu/sites/default/files/styles/frontpage_images/public/2020-07/Met_Fresco_213x172.jpg?itok=Mih5jAZX" alt="Submit" width="300" height="300">
+        <p><em>Cicero (Against Verres 2.1.53-86)</em></p>
+    </form>
+
+    <form action="https://dcc.dickinson.edu/cicero-de-imperio/27" method="post">
+        <input type="image" src="https://dcc.dickinson.edu/sites/default/files/styles/frontpage_images/public/2020-07/Pompey_bust_213x161.jpg?itok=Z51s8eBt" alt="Submit" width="300" height="300">
+        <p><em>Cicero (On Pompey's Command [De Imperio], 27-49)</em></p>
+    </form>
+
+    <form action="https://dcc.dickinson.edu/cicero-philippics/ii-44" method="post">
+        <input type="image" src="https://dcc.dickinson.edu/sites/default/files/styles/frontpage_images/public/2021-01/Cicero%20Philippics%20cover%20image.jpg?itok=n2e5hHZG" alt="Submit" width="300" height="300">
+        <p><em>Cicero (Philippic 2.44–50, 78–92, 100–119)</em></p>
+    </form>  
+    
+    <form action="https://dcc.dickinson.edu/eutropius/breviarium-preface" method="post">
+        <input type="image" src="https://dcc.dickinson.edu/sites/default/files/styles/frontpage_images/public/2023-12/Panel%20with%20resting%20warrior%20Met%20cropped%204%20by%203.jpg?itok=ptb-SRyT
+        " alt="Submit" width="300" height="300">
+        <p><em>Eutropius (Summary of Roman History)</em></p>
+    </form>  
+</div>
+
+<p style="text-align: center;"><sup>*The images are linked to the Dickinson College Commentaries website.</sup></p>

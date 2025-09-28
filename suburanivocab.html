@@ -1,0 +1,334 @@
+<title>Omnia Latin</title>
+<h1 style="text-align: center;">Suburani Vocab</h1>
+
+
+<meta charset="UTF-8">
+    <!-- Toggle Button -->
+
+<button onclick="toggleSidebar()" style="background-color: #333; color: white; padding: 10px 15px; border: none; cursor: pointer; position: fixed; top: 10px; left: 10px;">☰ Menu</button>
+
+
+    <!-- Sidebar -->
+<div id="sidebar" style="display: none; position: fixed; top: 0; left: 0; width: 200px; height: 100%; background: #333; color: white; padding: 20px;">
+        <button onclick="location.href='home.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Home</button>
+        <button onclick="location.href='indicativeverbs.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Indicative Verbs</button>
+        <button onclick="location.href='nouns.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Nouns</button>
+        <button onclick="location.href='adjectives.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Adjectives</button>
+        <button onclick="location.href='pronouns.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Pronouns</button>
+        <button onclick="location.href='misc.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Misc.</button>
+        <button onclick="location.href='latintexts.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px">Latin Texts</button>
+        <button onclick="location.href='art.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px">Art</button>
+        <button style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px; position: absolute; bottom: 40px; left: 20px;" onclick="toggleSidebar();">Close</button>
+</div>
+    <!-- Side Bar Script -->
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById('sidebar');
+            sidebar.style.display = (sidebar.style.display === 'none') ? 'block' : 'none';
+        }
+        </script>
+
+<!-- Script -->
+<form>
+    <label for="choice">Choose a chapter:</label>
+    <select id="choice" name="choice">
+        <option value="">--Select--</option>
+        <option value="chapter1">Chapter 1</option>
+        <option value="chapter2">Chapter 2</option>
+        <option value="chapter3">Chapter 3</option>
+        <option value="chapter4">Chapter 4</option>
+        <option value="chapter5">Chapter 5</option>
+        <option value="chapter6">Chapter 6</option>
+        <option value="chapter7">Chapter 7</option>
+        <option value="chapter8">Chapter 8</option>
+        <option value="chapter9">Chapter 9</option>
+        <option value="chapter10">Chapter 10</option>
+        <option value="chapter11">Chapter 11</option>
+        <option value="chapter12">Chapter 12</option>
+        <option value="chapter13">Chapter 13</option>
+        <option value="chapter14">Chapter 14</option>
+        <option value="chapter15">Chapter 15</option>
+        <option value="chapter16">Chapter 16</option>
+        <option value="chapter17">Chapter 17</option>
+        <option value="chapter18">Chapter 18</option>
+        <option value="chapter19">Chapter 19</option>
+        <option value="chapter20">Chapter 20</option>
+        <option value="chapter21">Chapter 21</option>
+        <option value="chapter22">Chapter 22</option>
+        <option value="chapter23">Chapter 23</option>
+        <option value="chapter24">Chapter 24</option>
+        <option value="chapter25">Chapter 25</option>
+        <option value="chapter26">Chapter 26</option>
+        <option value="chapter27">Chapter 27</option>
+        <option value="chapter28">Chapter 28</option>
+        <option value="chapter29">Chapter 29</option>
+        <option value="chapter30">Chapter 30</option>
+        <option value="chapter31">Chapter 31</option>
+        <option value="chapter32">Chapter 32</option>
+        <option value="chapter33">Chapter 33</option>
+        <option value="chapter34">Chapter 34</option>
+        <option value="chapter35">Chapter 35</option>
+        <option value="chapter36">Chapter 36</option>
+        <option value="chapter37">Chapter 37</option>
+        <option value="chapter38">Chapter 38</option>
+        <option value="chapter39">Chapter 39</option>
+        <option value="chapter40">Chapter 40</option>
+    </select>
+  </form>
+
+  <div id="">
+
+  </div>
+
+  <div id="chapter1">
+  <meta charset="UTF-8">
+<div onclick="flip(this)">dormiō<br><small style='display:none'>I sleep</small></div>
+<div onclick="flip(this)">ego<br><small style='display:none'>I</small></div>
+<div onclick="flip(this)">frāter<br><small style='display:none'>brother</small></div>
+<div onclick="flip(this)">hōra<br><small style='display:none'>hour</small></div>
+<div onclick="flip(this)">in<br><small style='display:none'>in, on</small></div>
+<div onclick="flip(this)">īnsula<br><small style='display:none'>apartment building</small></div>
+<div onclick="flip(this)">labōrō<br><small style='display:none'>I work</small></div>
+<div onclick="flip(this)">legō<br><small style='display:none'>I read</small></div>
+<div onclick="flip(this)">meus<br><small style='display:none'>my</small></div>
+<div onclick="flip(this)">nōn<br><small style='display:none'>not</small></div>
+<div onclick="flip(this)">pater<br><small style='display:none'>father</small></div>
+<div onclick="flip(this)">rīdeō<br><small style='display:none'>I laugh, smile</small></div>
+<div onclick="flip(this)">servus<br><small style='display:none'>slave, enslaved person (male)</small></div>
+<div onclick="flip(this)">tū<br><small style='display:none'>you (singular)</small></div>
+<div onclick="flip(this)">turba<br><small style='display:none'>crowd</small></div>
+<div onclick="flip(this)">ubi?<br><small style='display:none'>where?</small></div>
+<div onclick="flip(this)">via<br><small style='display:none'>street, road, way</small></div>
+<div onclick="flip(this)">sum<br><small style='display:none'>I am</small></div>
+<div onclick="flip(this)">es<br><small style='display:none'>you (singular) are</small></div>
+<div onclick="flip(this)">est<br><small style='display:none'>(he/she/it) is</small></div>
+
+<script>
+function flip(card) {
+  const txt = card.querySelector('small');
+  txt.style.display = txt.style.display === 'none' ? 'inline' : 'none';
+}
+</script>
+
+
+  </div>
+
+
+  <div id="chapter2">
+    Chapter2 vocab
+  </div>
+
+
+  <div id="chapter3">
+    Chapter3 vocab
+  </div>
+
+
+  <div id="chapter4">
+    Chapter4 vocab
+  </div>
+
+
+  <div id="chapter5">
+    Chapter5 vocab
+  </div>
+
+
+  <div id="chapter6">
+    Chapter6 vocab
+  </div>
+
+
+  <div id="chapter7">
+    Chapter7 vocab
+  </div>
+
+
+  <div id="chapter8">
+    Chapter8 vocab
+  </div>
+
+
+  <div id="chapter9">
+    Chapter9 vocab
+  </div>
+
+
+  <div id="chapter10">
+    Chapter10 vocab
+  </div>
+
+
+  <div id="chapter11">
+    Chapter11 vocab
+  </div>
+
+
+  <div id="chapter12">
+    Chapter12 vocab
+  </div>
+
+
+  <div id="chapter13">
+    Chapter13 vocab
+  </div>
+
+
+  <div id="chapter14">
+    Chapter14 vocab
+  </div>
+
+
+  <div id="chapter15">
+    Chapter15 vocab
+  </div>
+
+
+  <div id="chapter16">
+    Chapter16 vocab
+  </div>
+
+
+  <div id="chapter17">
+    Chapter17 vocab
+  </div>
+
+
+  <div id="chapter18">
+    Chapter18 vocab
+  </div>
+
+
+  <div id="chapter19">
+    Chapter19 vocab
+  </div>
+
+
+  <div id="chapter20">
+    Chapter20 vocab
+  </div>
+
+
+  <div id="chapter21">
+    Chapter21 vocab
+  </div>
+
+
+  <div id="chapter22">
+    Chapter22 vocab
+  </div>
+
+
+  <div id="chapter23">
+    Chapter23 vocab
+  </div>
+
+
+  <div id="chapter24">
+    Chapter24 vocab
+  </div>
+
+
+  <div id="chapter25">
+    Chapter25 vocab
+  </div>
+
+
+  <div id="chapter26">
+    Chapter26 vocab
+  </div>
+
+
+  <div id="chapter27">
+    Chapter27 vocab
+  </div>
+
+
+  <div id="chapter28">
+    Chapter28 vocab
+  </div>
+
+
+  <div id="chapter29">
+    Chapter29 vocab
+  </div>
+
+
+  <div id="chapter30">
+    Chapter30 vocab
+  </div>
+
+
+  <div id="chapter31">
+    Chapter31 vocab
+  </div>
+
+
+  <div id="chapter32">
+    Chapter32 vocab
+  </div>
+
+
+  <div id="chapter33">
+    Chapter33 vocab
+  </div>
+
+
+  <div id="chapter34">
+    Chapter34 vocab
+  </div>
+
+
+  <div id="chapter35">
+    Chapter35 vocab
+  </div>
+
+
+  <div id="chapter36">
+    Chapter36 vocab
+  </div>
+
+
+  <div id="chapter37">
+    Chapter37 vocab
+  </div>
+
+
+  <div id="chapter38">
+    Chapter38 vocab
+  </div>
+
+
+  <div id="chapter39">
+    Chapter39 vocab
+  </div>
+
+
+  <div id="chapter40">
+    Chapter40 vocab
+  </div>
+
+  <script>
+    const select = document.getElementById('choice');
+    const chapters = document.querySelectorAll('[id^="chapter"]'); // Select all elements with IDs starting with "chapter"
+    
+    // Hide all chapters on page load
+    window.onload = () => {
+        chapters.forEach(chapter => {
+            chapter.style.display = 'none';
+        });
+    };
+
+    select.addEventListener('change', () => {
+        // Hide all chapters
+        chapters.forEach(chapter => {
+            chapter.style.display = 'none';
+        });
+
+        // Show the selected chapter
+        const selectedChapter = document.getElementById(select.value);
+        if (selectedChapter) {
+            selectedChapter.style.display = 'block';
+        }
+    });
+</script>

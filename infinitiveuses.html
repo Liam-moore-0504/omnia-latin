@@ -1,0 +1,75 @@
+<title>Omnia Latin</title>
+<h1 style="text-align: center;">Uses of Infinitives</h1>
+
+
+<meta charset="UTF-8">
+    <!-- Toggle Button -->
+
+<button onclick="toggleSidebar()" style="background-color: #333; color: white; padding: 10px 15px; border: none; cursor: pointer; position: fixed; top: 10px; left: 10px;">☰ Menu</button>
+
+
+    <!-- Sidebar -->
+<div id="sidebar" style="display: none; position: fixed; top: 0; left: 0; width: 200px; height: 100%; background: #333; color: white; padding: 20px;">
+        <button onclick="location.href='home.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Home</button>
+        <button onclick="location.href='indicativeverbs.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Indicative Verbs</button>
+        <button onclick="location.href='nouns.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Nouns</button>
+        <button onclick="location.href='adjectives.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Adjectives</button>
+        <button onclick="location.href='pronouns.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Pronouns</button>
+        <button onclick="location.href='misc.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px;">Misc.</button>
+        <button onclick="location.href='latintexts.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px">Latin Texts</button>
+        <button onclick="location.href='art.html'" style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px">Art</button>
+        <button style="display: inline-block; background: #555; color: white; padding: 10px 15px; text-decoration: none; margin-bottom: 10px; width: 200px; position: absolute; bottom: 40px; left: 20px;" onclick="toggleSidebar();">Close</button>
+</div>
+
+<style>
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: sans-serif;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  </style>
+
+<!-- Script -->
+<script>
+    function toggleSidebar() {
+        var sidebar = document.getElementById('sidebar');
+        sidebar.style.display = (sidebar.style.display === 'none') ? 'block' : 'none';
+    }
+    </script>
+
+<table>
+    <thead>
+            <tr>
+                <th>Verbs</th><th>Example</th>
+            </tr>
+    </thead>
+
+<tr>
+    <td>Complementary</td>
+    <td>Vos militis totum diem <u>procedere</u> cogmini</td>
+
+</tr>
+<tr>
+    <td>Subject</td>
+    <td><u>amāre</u> est humanum</td>
+
+</tr>
+<tr>
+    <td>Indirect Statement</td>
+    <td>Puella dīcit puerum <u>venīre</u></td>
+
+</tr>
+</table>
